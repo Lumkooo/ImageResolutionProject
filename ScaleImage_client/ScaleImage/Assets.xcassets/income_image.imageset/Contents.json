@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "chihuahua-dog-running-across-grass-royalty-free-image-1580743445.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
