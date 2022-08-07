@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3FEE2D289F88C700586F49 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE2C289F88C700586F49 /* Dictionary.swift */; };
+		CE3FEE2F289F89B500586F49 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE2E289F89B500586F49 /* CharacterSet.swift */; };
+		CE3FEE31289F89D500586F49 /* ImageDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE30289F89D500586F49 /* ImageDataInfo.swift */; };
+		CE3FEE33289F89FA00586F49 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE32289F89FA00586F49 /* RequestManager.swift */; };
+		CE3FEE35289F8BAC00586F49 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE34289F8BAC00586F49 /* HTTPMethod.swift */; };
+		CE3FEE37289F900D00586F49 /* ServerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE36289F900D00586F49 /* ServerInfo.swift */; };
+		CE3FEE39289F907900586F49 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE38289F907900586F49 /* ServerManager.swift */; };
+		CE3FEE3B289F917800586F49 /* ServerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE3A289F917800586F49 /* ServerPath.swift */; };
+		CE3FEE40289F939700586F49 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE3F289F939600586F49 /* AppError.swift */; };
+		CE3FEE42289F951B00586F49 /* AppErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3FEE41289F951B00586F49 /* AppErrorCodes.swift */; };
 		CED875F5289E57AB00AB3A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED875F4289E57AB00AB3A1F /* AppDelegate.swift */; };
 		CED875F7289E57AB00AB3A1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED875F6289E57AB00AB3A1F /* SceneDelegate.swift */; };
 		CED875F9289E57AB00AB3A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED875F8289E57AB00AB3A1F /* ViewController.swift */; };
@@ -16,9 +26,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3FEE2C289F88C700586F49 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		CE3FEE2E289F89B500586F49 /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSet.swift; sourceTree = "<group>"; };
+		CE3FEE30289F89D500586F49 /* ImageDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataInfo.swift; sourceTree = "<group>"; };
+		CE3FEE32289F89FA00586F49 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		CE3FEE34289F8BAC00586F49 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CE3FEE36289F900D00586F49 /* ServerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerInfo.swift; sourceTree = "<group>"; };
+		CE3FEE38289F907900586F49 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		CE3FEE3A289F917800586F49 /* ServerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPath.swift; sourceTree = "<group>"; };
+		CE3FEE3F289F939600586F49 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		CE3FEE41289F951B00586F49 /* AppErrorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrorCodes.swift; sourceTree = "<group>"; };
 		CED875F1289E57AB00AB3A1F /* ScaleImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaleImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CED875F4289E57AB00AB3A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CED875F6289E57AB00AB3A1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CED875F4289E57AB00AB3A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		CED875F6289E57AB00AB3A1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
 		CED875F8289E57AB00AB3A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CED875FB289E57AB00AB3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED875FD289E57AF00AB3A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +57,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3FEE28289F889200586F49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CED875FD289E57AF00AB3A1F /* Assets.xcassets */,
+				CED875FF289E57AF00AB3A1F /* LaunchScreen.storyboard */,
+				CED87602289E57AF00AB3A1F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE3FEE29289F88A500586F49 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CED875F8289E57AB00AB3A1F /* ViewController.swift */,
+				CED875FA289E57AB00AB3A1F /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE3FEE2A289F88AD00586F49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FEE30289F89D500586F49 /* ImageDataInfo.swift */,
+				CE3FEE43289F9AB300586F49 /* HTTPInfo */,
+				CE3FEE3E289F938E00586F49 /* Error */,
+				CE3FEE3C289F91CF00586F49 /* Entities */,
+				CE3FEE38289F907900586F49 /* ServerManager.swift */,
+				CE3FEE32289F89FA00586F49 /* RequestManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE3FEE2B289F88BB00586F49 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FEE2C289F88C700586F49 /* Dictionary.swift */,
+				CE3FEE2E289F89B500586F49 /* CharacterSet.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE3FEE3C289F91CF00586F49 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FEE36289F900D00586F49 /* ServerInfo.swift */,
+				CE3FEE3A289F917800586F49 /* ServerPath.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CE3FEE3E289F938E00586F49 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FEE3F289F939600586F49 /* AppError.swift */,
+				CE3FEE41289F951B00586F49 /* AppErrorCodes.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		CE3FEE43289F9AB300586F49 /* HTTPInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CE3FEE34289F8BAC00586F49 /* HTTPMethod.swift */,
+			);
+			path = HTTPInfo;
+			sourceTree = "<group>";
+		};
+		CE5CFE6F289F886B00B186E6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CED875F4289E57AB00AB3A1F /* AppDelegate.swift */,
+				CED875F6289E57AB00AB3A1F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		CED875E8289E57AB00AB3A1F = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +152,11 @@
 		CED875F3289E57AB00AB3A1F /* ScaleImage */ = {
 			isa = PBXGroup;
 			children = (
-				CED875F4289E57AB00AB3A1F /* AppDelegate.swift */,
-				CED875F6289E57AB00AB3A1F /* SceneDelegate.swift */,
-				CED875F8289E57AB00AB3A1F /* ViewController.swift */,
-				CED875FA289E57AB00AB3A1F /* Main.storyboard */,
-				CED875FD289E57AF00AB3A1F /* Assets.xcassets */,
-				CED875FF289E57AF00AB3A1F /* LaunchScreen.storyboard */,
-				CED87602289E57AF00AB3A1F /* Info.plist */,
+				CE3FEE2B289F88BB00586F49 /* Extension */,
+				CE3FEE2A289F88AD00586F49 /* Model */,
+				CE5CFE6F289F886B00B186E6 /* App */,
+				CE3FEE29289F88A500586F49 /* Controllers */,
+				CE3FEE28289F889200586F49 /* Resources */,
 			);
 			path = ScaleImage;
 			sourceTree = "<group>";
@@ -138,9 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3FEE39289F907900586F49 /* ServerManager.swift in Sources */,
 				CED875F9289E57AB00AB3A1F /* ViewController.swift in Sources */,
+				CE3FEE2D289F88C700586F49 /* Dictionary.swift in Sources */,
 				CED875F5289E57AB00AB3A1F /* AppDelegate.swift in Sources */,
+				CE3FEE2F289F89B500586F49 /* CharacterSet.swift in Sources */,
+				CE3FEE35289F8BAC00586F49 /* HTTPMethod.swift in Sources */,
+				CE3FEE37289F900D00586F49 /* ServerInfo.swift in Sources */,
+				CE3FEE33289F89FA00586F49 /* RequestManager.swift in Sources */,
+				CE3FEE42289F951B00586F49 /* AppErrorCodes.swift in Sources */,
+				CE3FEE40289F939700586F49 /* AppError.swift in Sources */,
 				CED875F7289E57AB00AB3A1F /* SceneDelegate.swift in Sources */,
+				CE3FEE31289F89D500586F49 /* ImageDataInfo.swift in Sources */,
+				CE3FEE3B289F917800586F49 /* ServerPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DB9UTG3H5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScaleImage/Info.plist;
+				INFOPLIST_FILE = ScaleImage/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DB9UTG3H5X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScaleImage/Info.plist;
+				INFOPLIST_FILE = ScaleImage/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

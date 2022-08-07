@@ -24,7 +24,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="Mn3-Um-mZ9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="income_image" translatesAutoresizingMaskIntoConstraints="NO" id="Mn3-Um-mZ9">
                                 <rect key="frame" x="16" y="44" width="382" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="YlC-AS-ldI"/>
@@ -68,7 +68,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="image" width="612" height="408"/>
+        <image name="income_image" width="524" height="528"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
